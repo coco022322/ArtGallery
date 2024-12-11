@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Van Gogh</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="./img/640px-Vincent_van_Gogh_-_National_Gallery_of_Art.ico" type="image/x-icon">
+
+    <!-- Asegúrate de incluir la biblioteca de Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="logo">Vincent Van Gogh</div>
+        <div class="nav-links">
+            <a href="#">Visitas</a>
+            <a href="#">Explora</a>
+            <a href="#">Contacto</a>
+        </div>
+
+        <div class="buttons">
+            <!-- Dropdown de idiomas -->
+            <div class="dropdown">
+                <button class="button">Español</button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="button">Ver Más</button>
+                <div class="dropdown-content">
+                    <a href="#">Exposiciones</a>
+                    <a href="#">Eventos</a>
+                    <a href="">Acerca de</a>
+                </div>
+            </div>
+
+            <a class="button" href="../Tienda/tienda.html">Tienda Online</a>
+
+        </div>
+    </nav>
+
+    <!-- Capa de opacidad -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Galería de imágenes -->
+    <div class="gallery">
+        <div class="frame" onclick="selectImage(this)">
+            <img src="https://cdn.culturagenial.com/imagens/vincent-van-gogh-self-portrait-google-art-project-0-cke.jpg"
+                alt="Arte 1">
+            <div class="textimg">
+                <p>
+                    Título: Autoretrato </br>
+                    Año: 1889 </br>
+                    Ubicación: Museo Orsay (París)
+                </p>
+            </div>
+        </div>
+        <div class="frame" onclick="selectImage(this)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU6i6UglwlFH_2_mRlTY0iVlUdXukCtvmVkA&s"
+                alt="Arte 2">
+            <div class="textimg">
+                <p>
+                    Título: Café Terrace at Night </br>
+                    Año: 1889 </br>
+                    Ubiación: Kröller-Müller Museum in Otterlo (Netherlands)
+                </p>
+            </div>
+        </div>
+        <div class="frame" onclick="selectImage(this)">
+            <img src="https://i.ytimg.com/vi/ERTn06UMkHI/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHeA4AC6AKKAgwIABABGDYgTih_MA8=&rs=AOn4CLDcEO51KvDxX6oKv2qD1mSNwZJWdA"
+                alt="Arte 3">
+            <div class="textimg">
+                <p>
+                    Título: La noche estrellada </br>
+                    Año: 1889 </br>
+                    Ubicación: Museo MoMA (Nueva York)
+                </p>
+            </div>
+        </div>
+        <div class="frame" onclick="selectImage(this)">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjydlDMiTTvHL1AAzKtUfttv88yj9BIEgUA2ei7uutUvTWjCRHCP_4e3w6p-hX4UC-K7mCcjPvjoXISXpkUlfF0bCK8ZYf3LwfgTYeA8Ov7NjBnp4nlSZNzpqlEgeuc4ceSYRWghij7wNq5/w1200-h630-p-k-no-nu/lirios.jpg"
+                alt="Arte 4">
+            <div class="textimg">
+                <p>
+                    Título: Jarrón Con Lirios</br>
+                    Año: 1889 </br>
+                    Ubicación: Museo Van Gogh (Ámsterdan)
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Botón interactivo al pie izquierdo -->
+    <div class="bottom-left">
+        <h2>Bienvenido a nuestra galería</h2>
+        <p>Descubre el arte que inspira, emociona y transforma. Explora las obras que definen la creatividad.</p>
+        <button onclick="window.location.href='#'">Explora ahora</button>
+    </div>
+
+    <div class="typewriter-container">
+        "Las grandes cosas se logran con la unión de pequeñas cosas" - Vincent Van Gogh
+    </div>
+
+
+    
+    <!-- BORRAR -->
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <!-- PD: SÍ LEEN ESTO ESTOY EN PROCESO DE TERMINARLA, GRACIAS, SE RECIBEN CRÍTICAS, EL DISEÑO NO ES MI FUERTE  -->
+
+
+
+    <footer>
+        <div class="footer-content">
+            <!-- Retrato de Vincent van Gogh -->
+            <div class="portrait">
+                <img src="https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNWNiZGNlNzBhODNhOS5qcGciLCJyZXNpemUsODAwIl19.qEqFocCkfKTugLXrz59WTn2AtYxN_Xr0cDIig1jaPvY.jpg' alt="
+                    Vincent van Gogh" />
+            </div>
+
+            <!-- Información adicional -->
+            <div class="info">
+                <h2>Acerca de Vincent van Gogh</h2>
+                <p>VVincent van Gogh (nacido el 30 de marzo de 1853 en Zundert, Países Bajos; fallecido el 29 de julio
+                    de 1890 en Auvers-sur-Oise, cerca de París, Francia) fue un pintor holandés, generalmente
+                    considerado el más grande después de Rembrandt van Rijn , y uno de los más grandes
+                    postimpresionistas . El color llamativo, la pincelada enfática y las formas contorneadas de su obra
+                    influyeron poderosamente en la corriente del expresionismo en el arte moderno . El arte de Van Gogh
+                    se volvió asombrosamente popular después de su muerte, especialmente a fines del siglo XX, cuando su
+                    trabajo se vendió por sumas récord en subastas en todo el mundo y apareció en exhibiciones
+                    itinerantes de gran éxito. En parte debido a sus extensas cartas publicadas, van Gogh también ha
+                    sido mitificado en la imaginación popular como el artista torturado por excelencia.</p>
+
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> X</a>
+                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>
